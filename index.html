@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAForLeads | B2B Lead Generation &amp; Prospect Research Agency</title>
+  <meta name="description" content="VAForLeads helps recruiters, SaaS companies, agencies, and sales teams build verified B2B prospect lists using LinkedIn Sales Navigator, Apollo, and manual research.">
+  <meta name="keywords" content="B2B lead generation, prospect research, LinkedIn Sales Navigator research, email verification, recruitment research, CRM data cleaning">
+  <meta name="author" content="VAForLeads">
+  <meta name="theme-color" content="#0F172A">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VAForLeads | B2B Lead Generation &amp; Prospect Research Agency">
+  <meta property="og:description" content="Verified decision-maker lists for recruiters, SaaS companies, agencies, and sales teams.">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Fonts: preconnect for performance, display=swap to avoid render blocking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Decorative ambient background — purely visual, sits behind all content -->
+  <div class="bg-atmosphere" aria-hidden="true">
+    <span class="bg-blob bg-blob--one"></span>
+    <span class="bg-blob bg-blob--two"></span>
+    <span class="bg-blob bg-blob--three"></span>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER / STICKY NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar">
+      <a href="#top" class="brand">
+        <img src="assets/logo.svg" alt="" width="36" height="36">
+        VAForLeads
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Book a Free Discovery Call</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" id="navBackdrop"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-primary btn-block">Book a Free Discovery Call</a>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="top">
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="avatar-stack" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          Trusted by 275+ B2B sales teams
+        </div>
+
+        <h1 class="hero-title reveal">
+          Stop Chasing Bad Contacts. Start Booking <span class="text-gradient">Real Meetings</span>.
+        </h1>
+        <p class="hero-subtitle reveal">
+          Most outbound doesn't fail because of the pitch — it fails because of the list. We research and verify every contact by hand, so your reps spend time selling, not cleaning up bad data.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">Book a Free Discovery Call</a>
+          <a href="#portfolio" class="btn btn-secondary">See Case Studies</a>
+        </div>
+        <p class="hero-microcopy reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Free 30-min call &nbsp;·&nbsp; No obligation &nbsp;·&nbsp; Reply within 24 hours
+        </p>
+
+        <div class="hero-tool-strip reveal" aria-label="Research verified using">
+          <span>Verified with the tools you already trust</span>
+          <div class="hero-tool-icons">
+            <span title="LinkedIn Sales Navigator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+            <span title="Apollo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4.4 1 6.1L12 16.5 6.5 19.5l1-6.1L3 8l6-1 3-6z"/></svg></span>
+            <span title="Hunter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="3" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="21"/><line x1="3" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="21" y2="12"/></svg></span>
+            <span title="NeverBounce"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          </div>
+        </div>
+
+        <div class="trust-badges reveal">
+          <div class="trust-badge">
+            <strong>8+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="trust-badge">
+            <strong>275+</strong>
+            <span>Projects Completed</span>
+          </div>
+          <div class="trust-badge">
+            <strong>15,000+</strong>
+            <span>Hours Worked</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRUST PILLARS — builds credibility immediately below the fold
+         ========================================================================== -->
+    <section id="why-us" aria-label="Why teams trust VAForLeads">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-pillar reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3>94–97% Verified Deliverability</h3>
+            <p>Every contact gets double-checked with Hunter and NeverBounce before it ever reaches you.</p>
+          </div>
+
+          <div class="trust-pillar reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+            </div>
+            <h3>Your Data Stays Yours</h3>
+            <p>We don't share, reuse, or resell your target list or search criteria. Ever.</p>
+          </div>
+
+          <div class="trust-pillar reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16.5 9l1.5 1.5L21 7"/></svg>
+            </div>
+            <h3>Real People, Not Scrapers</h3>
+            <p>No bots, no scraped lists — every contact is researched and verified by an actual person.</p>
+          </div>
+
+          <div class="trust-pillar reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>
+            </div>
+            <h3>8+ Years, 275+ Projects</h3>
+            <p>We've run this process enough times to know what works — and what just wastes your budget.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES
+         ========================================================================== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Services</span>
+          <h2 class="section-title">Six Ways We Help You Reach the Right People</h2>
+          <p class="section-subtitle">From your first target list to a clean, CRM-ready spreadsheet — we handle everything in between.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+            </div>
+            <h3>Lead Generation</h3>
+            <p>Targeted prospect lists built around who you're actually trying to reach — no filler contacts, no guesswork.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Prospect Research</h3>
+            <p>We dig into each company by hand, so the contacts you get are accurate, current, and worth calling.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>LinkedIn Sales Navigator Research</h3>
+            <p>Precise, purpose-built searches that surface the decision-makers a generic keyword search would miss.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M9 15l1.8 1.8L15 13"/></svg>
+            </div>
+            <h3>Email Verification</h3>
+            <p>Every address gets checked through Hunter and NeverBounce, so your bounce rate — and sender reputation — stay intact.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="8" r="3"/><path d="M4 20c0-3.3 3.1-6 7-6s7 2.7 7 6"/><path d="M20 8l1.5 1.5L18 13"/></svg>
+            </div>
+            <h3>Recruitment Research</h3>
+            <p>Candidate sourcing and client-side contact mapping for recruiting teams that need volume without giving up quality.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+            </div>
+            <h3>CRM Data Cleaning</h3>
+            <p>We remove duplicates, fill in missing fields, and standardize formatting so your CRM is something reps actually trust.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOW IT WORKS
+         ========================================================================== -->
+    <section id="how-it-works">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Process</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">The same six steps we run on every project — refined over 275+ engagements.</p>
+        </div>
+
+        <ol class="process-list">
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">1</span>
+            <div>
+              <h3>Understand Your Ideal Customer</h3>
+              <p>We start with a discovery call to map out your ICP, your offer, and what you're trying to achieve with outbound.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">2</span>
+            <div>
+              <h3>Build Target Prospect Criteria</h3>
+              <p>We turn that into specific filters — company size, industry, title, location — so every search stays on target.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">3</span>
+            <div>
+              <h3>Research Companies</h3>
+              <p>We identify and qualify companies that actually fit your criteria, one by one — not by pulling a generic list.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">4</span>
+            <div>
+              <h3>Find Decision Makers</h3>
+              <p>Sales Navigator and manual digging pinpoint the real buyers and influencers — not just whoever has a public email.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">5</span>
+            <div>
+              <h3>Verify Contact Details</h3>
+              <p>Every email and phone number gets checked through Hunter and NeverBounce before it goes anywhere near your CRM.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <span class="process-number" aria-hidden="true">6</span>
+            <div>
+              <h3>Deliver Clean Spreadsheet</h3>
+              <p>You get an organized spreadsheet, formatted exactly how your team needs it and ready to import.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INDUSTRIES
+         ========================================================================== -->
+    <section id="industries">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Industries</span>
+          <h2 class="section-title">Industries We Know Well</h2>
+          <p class="section-subtitle">Every industry buys differently — our research adapts to how yours actually works.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 0-9 6 6 0 0 0-11.6-1.9A4 4 0 0 0 5 16h12.5z"/></svg>
+            </div>
+            <h3>SaaS</h3>
+            <p>Founder and exec contact lists for SaaS teams running outbound, whether you're product-led or sales-led.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c0-3 2.7-5.5 6-5.5s6 2.5 6 5.5"/><path d="M14.5 15c2.5.2 4.5 2.3 4.5 5"/></svg>
+            </div>
+            <h3>Recruitment</h3>
+            <p>Candidate sourcing and client-side contact mapping for staffing and recruiting agencies.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-7-7 18-2.5-7.5L3 11z"/></svg>
+            </div>
+            <h3>Marketing Agencies</h3>
+            <p>Client acquisition lists for agencies pitching retainers into a specific niche.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>
+            </div>
+            <h3>Construction</h3>
+            <p>Owner, operations manager, and general contractor lists, segmented by trade and region.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5 5 0 0 0-7.1 0L12 6.3l-1.7-1.7a5 5 0 1 0-7.1 7.1L12 20.3l8.8-8.6a5 5 0 0 0 0-7.1z"/><path d="M8 12h2l1.5-3L13 15l1.5-3H16"/></svg>
+            </div>
+            <h3>Healthcare</h3>
+            <p>Compliant, verified contact research for practice managers, administrators, and clinical leaders.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
+            </div>
+            <h3>Professional Services</h3>
+            <p>Targeted outreach lists for consultancies, law firms, financial advisors, and other advisory practices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO / CASE STUDIES
+         ========================================================================== -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2 class="section-title">Real Projects, Real Numbers</h2>
+          <p class="section-subtitle">A few recent projects — and the numbers they actually produced.</p>
+        </div>
+
+        <div class="case-study-grid">
+          <article class="case-study reveal">
+            <span class="case-study-tag">SaaS Startup</span>
+            <h3>Founder-Led Outbound List</h3>
+            <p class="case-study-desc">Built a targeted list of Series A/B SaaS founders for a sales tool company running its first outbound campaign.</p>
+            <div class="case-study-stats">
+              <div class="stat-block">
+                <strong>850</strong>
+                <span>Verified Founders</span>
+              </div>
+              <div class="stat-block">
+                <strong>97%</strong>
+                <span>Email Deliverability</span>
+              </div>
+            </div>
+            <div class="case-study-deliverables">
+              <span class="deliverable-chip">LinkedIn URLs</span>
+              <span class="deliverable-chip">Company size</span>
+              <span class="deliverable-chip">Technology stack</span>
+            </div>
+            <a href="#contact" class="case-study-cta">
+              Get results like this
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="case-study reveal">
+            <span class="case-study-tag">Construction</span>
+            <h3>Regional Expansion Prospect List</h3>
+            <p class="case-study-desc">Mapped decision-makers across a five-state region for a building materials supplier entering new markets.</p>
+            <div class="case-study-stats">
+              <div class="stat-block">
+                <strong>620</strong>
+                <span>Verified Contacts</span>
+              </div>
+              <div class="stat-block">
+                <strong>94%</strong>
+                <span>Email Deliverability</span>
+              </div>
+            </div>
+            <div class="case-study-deliverables">
+              <span class="deliverable-chip">Owners</span>
+              <span class="deliverable-chip">Operations Managers</span>
+              <span class="deliverable-chip">General Contractors</span>
+            </div>
+            <a href="#contact" class="case-study-cta">
+              Get results like this
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="case-study reveal">
+            <span class="case-study-tag">Marketing Agency</span>
+            <h3>Niche Client Acquisition List</h3>
+            <p class="case-study-desc">Researched mid-market e-commerce brands and their marketing leads for an agency selling paid media retainers.</p>
+            <div class="case-study-stats">
+              <div class="stat-block">
+                <strong>1,200</strong>
+                <span>Decision-Makers</span>
+              </div>
+              <div class="stat-block">
+                <strong>96%</strong>
+                <span>Email Deliverability</span>
+              </div>
+            </div>
+            <div class="case-study-deliverables">
+              <span class="deliverable-chip">Direct dials</span>
+              <span class="deliverable-chip">Job titles</span>
+              <span class="deliverable-chip">Buying intent signals</span>
+            </div>
+            <a href="#contact" class="case-study-cta">
+              Get results like this
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS
+         ========================================================================== -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2 class="section-title">Trusted by Sales &amp; Growth Teams</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card reveal">
+            <p class="testimonial-rating" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="testimonial-quote">"VAForLeads rebuilt our entire outbound list in two weeks. Deliverability went from 80% to 97% almost overnight."</p>
+            <footer class="testimonial-author">
+              <span class="author-avatar" aria-hidden="true">MR</span>
+              <span>
+                <span class="author-name">Marcus Reyes</span><br>
+                <span class="author-role">VP Sales, SaaS Company</span>
+              </span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <p class="testimonial-rating" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="testimonial-quote">"The research is thorough and accurate every single time. It feels like we hired an in-house research team, not a freelancer."</p>
+            <footer class="testimonial-author">
+              <span class="author-avatar" aria-hidden="true">SK</span>
+              <span>
+                <span class="author-name">Sarah Klein</span><br>
+                <span class="author-role">Founder, Recruiting Agency</span>
+              </span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal">
+            <p class="testimonial-rating" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="testimonial-quote">"Clean spreadsheets, verified emails, no back-and-forth. VAForLeads has become our go-to partner for every new campaign."</p>
+            <footer class="testimonial-author">
+              <span class="author-avatar" aria-hidden="true">DP</span>
+              <span>
+                <span class="author-name">David Park</span><br>
+                <span class="author-role">Growth Lead, Marketing Agency</span>
+              </span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TOOLS WE USE
+         ========================================================================== -->
+    <section id="tools">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">Our Stack</span>
+          <h2 class="section-title">Tools We Use</h2>
+          <p class="section-subtitle">The same platforms your team already knows, backed by manual checks instead of automation alone.</p>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+            </div>
+            <span>LinkedIn Sales Navigator</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4.4 1 6.1L12 16.5 6.5 19.5l1-6.1L3 8l6-1 3-6z"/></svg>
+            </div>
+            <span>Apollo</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="3" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="21"/><line x1="3" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="21" y2="12"/></svg>
+            </div>
+            <span>Hunter</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <span>NeverBounce</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="20" x2="4" y2="12"/><line x1="10" y1="20" x2="10" y2="7"/><line x1="16" y1="20" x2="16" y2="4"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+            </div>
+            <span>Crunchbase</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
+            </div>
+            <span>Google</span>
+          </div>
+          <div class="tool-card reveal">
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+            </div>
+            <span>Google Sheets</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT
+         ========================================================================== -->
+    <section id="about">
+      <div class="container about-section">
+        <div class="about-copy reveal">
+          <span class="eyebrow">About VAForLeads</span>
+          <h2 class="section-title">A Research Team That Thinks Like a Sales Team</h2>
+          <p>Most outbound campaigns don't fail because of the message — they fail because the list behind them is stale, scraped, or just wrong. We started VAForLeads to fix that specific problem, and for the past eight years, it's been the only thing we do.</p>
+          <p>Every project runs through the same process: define your ideal customer, research companies by hand, and verify every contact before it reaches your CRM. What you get is a list your reps actually want to work — not one they give up on after the first round of bounces.</p>
+          <p>We work like an extension of your team, not a vendor you hire once and forget. Most of our 275+ projects have come from repeat clients and referrals — that's not an accident.</p>
+
+          <div class="about-stats">
+            <div class="stat-block">
+              <strong>8+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat-block">
+              <strong>275+</strong>
+              <span>Projects Completed</span>
+            </div>
+            <div class="stat-block">
+              <strong>15,000+</strong>
+              <span>Hours Worked</span>
+            </div>
+            <div class="stat-block">
+              <strong>6</strong>
+              <span>Industries Served</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="inline-cta">
+            Curious how we'd approach your list? Let's talk
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="reveal" aria-hidden="true">
+          <img src="assets/images/about-illustration.svg" alt="" width="560" height="480" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ — answers common objections before they become reasons not to convert
+         ========================================================================== -->
+    <section id="faq">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="section-title">Questions Teams Ask Before Hiring Us</h2>
+          <p class="section-subtitle">Straight answers to what comes up most on discovery calls.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>How accurate is the data you deliver?</summary>
+            <p>Every contact is manually researched, then passed through Hunter and NeverBounce for email verification before it's delivered. Our recent case studies average 94–97% deliverability.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How long does a typical project take?</summary>
+            <p>Most lists of 500–1,500 contacts are delivered within 5–10 business days, depending on scope and criteria complexity. You'll get an exact timeline on your discovery call.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is my target list and data kept confidential?</summary>
+            <p>Yes. Your ideal customer profile, search criteria, and delivered data are never shared, reused for other clients, or resold. Your outbound strategy stays yours.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What industries do you work with?</summary>
+            <p>We've delivered projects across SaaS, recruitment, marketing agencies, construction, healthcare, and professional services, tailoring our research methodology to each.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What does it cost to get started?</summary>
+            <p>Pricing depends on list size, criteria complexity, and turnaround. Book a free discovery call and we'll send a clear, itemized quote within 24 hours — no pressure, no obligation.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you offer any guarantees?</summary>
+            <p>If a delivered contact bounces due to a verification error on our end, we'll research and replace it at no additional cost.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT
+         ========================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="section-title">Let's Build a List Your Team Will Actually Use</h2>
+          <p class="section-subtitle">Book a free call and we'll map out exactly who you should be targeting, plus a clear quote within 24 hours. No obligation.</p>
+
+          <form class="lead-form" id="leadForm" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="fieldName">Name</label>
+                <input type="text" id="fieldName" name="name" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="fieldEmail">Work Email</label>
+                <input type="email" id="fieldEmail" name="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="fieldCompany">Company</label>
+                <input type="text" id="fieldCompany" name="company" autocomplete="organization" required>
+              </div>
+              <div class="form-field">
+                <label for="fieldService">What do you need help with?</label>
+                <select id="fieldService" name="service">
+                  <option value="Lead Generation">Lead Generation</option>
+                  <option value="Prospect Research">Prospect Research</option>
+                  <option value="LinkedIn Sales Navigator Research">LinkedIn Sales Navigator Research</option>
+                  <option value="Email Verification">Email Verification</option>
+                  <option value="Recruitment Research">Recruitment Research</option>
+                  <option value="CRM Data Cleaning">CRM Data Cleaning</option>
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="fieldMessage">Tell us about your ideal customer (optional)</label>
+              <textarea id="fieldMessage" name="message" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Request My Free Discovery Call</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-microcopy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+              We reply within 24 hours. No spam, ever.
+            </p>
+          </form>
+
+          <p class="contact-divider"><span>Or reach us directly</span></p>
+
+          <div class="contact-methods">
+            <a class="contact-method" href="mailto:hello@vaforleads.com">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+              </div>
+              <span>
+                <span class="contact-method-label">Email</span><br>
+                <span class="contact-method-value">hello@vaforleads.com</span>
+              </span>
+            </a>
+
+            <a class="contact-method" href="https://www.linkedin.com/company/vaforleads" target="_blank" rel="noopener noreferrer">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <span>
+                <span class="contact-method-label">LinkedIn</span><br>
+                <span class="contact-method-value">/company/vaforleads</span>
+              </span>
+            </a>
+
+            <a class="contact-method" href="https://www.vaforleads.com" target="_blank" rel="noopener noreferrer">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
+              </div>
+              <span>
+                <span class="contact-method-label">Website</span><br>
+                <span class="contact-method-value">www.vaforleads.com</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="footer-brand">
+        <img src="assets/logo.svg" alt="" width="28" height="28">
+        VAForLeads
+      </a>
+
+      <ul class="footer-links">
+        <li>&copy; <span id="currentYear">2026</span> VAForLeads. All rights reserved.</li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#terms">Terms</a></li>
+      </ul>
+
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA — keeps the primary conversion action one tap away -->
+  <div class="mobile-cta-bar" id="mobileCtaBar">
+    <a href="#contact" class="btn btn-primary btn-block">Book a Free Discovery Call</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
